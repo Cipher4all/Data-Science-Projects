@@ -7,11 +7,11 @@
 import tweepy
 from textblob import TextBlob
 #copy keys and tokens from twitter api
-consumer_key = '50JCszXvz7A0ik1rdgaGR1UmI'
-consumer_secret = 'sY4u2EU2xOQU9PYt4lPAzmQjnCNPrZ6NINPe1FsHlTe4qMfJDI'
+consumer_key = 'CONSUMER_KEY_HERE'
+consumer_secret = 'CONSUMER_SECRET_HERE'
 
-access_token = '830061358829989888-AANbaMDzDDDUpY7O4bnzNJDq1sVfi4k'
-access_secret = 'xR8ZqHpDKJTrbTX9nY2mdYmMhT5a13RlBCx62IvOVuSzg'
+access_token = 'ACCESS_TOKEN_HERE'
+access_secret = 'ACCESS_SECRET_HERE'
 
 #authorize or login on twitter using auth function
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
